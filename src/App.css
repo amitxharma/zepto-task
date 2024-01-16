@@ -1,0 +1,80 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+.custom-chip.highlighted {
+  background-color: #ff7400;
+}
+
+.custom-chip-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 4px solid #7196f4;
+}
+
+.custom-chip-input-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.custom-chip {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  padding: 8px 12px;
+  margin: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.custom-chip-remove {
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.custom-item-list {
+  margin-top: 8px;
+  width: 25%;
+  position: absolute;
+  top: 10%;
+}
+
+.custom-item {
+  cursor: pointer;
+  padding: 8px 12px;
+  margin: 4px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.custom-item .custom-email {
+  margin-left: 8px;
+  color: #555;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin: 4px;
+  font-size: 16px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.custom-chip-avatar,
+.custom-item-avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.custom-item:hover,
+.custom-chip:hover {
+  background-color: #aeb0ae;
+}
